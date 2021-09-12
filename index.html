@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- My name at top-->
+   <h1>Peter W Palmer</h1>
+   <!--The color code for the page-->
+   <link rel= "stylesheet" href="countdowncolor.css">
+   <!--The name of the page-->
+    <title>Count Down To Blastoff</title>
+<script>
+    function StarttheLaunch()
+        { // So the timer knows where to start and how fast to count down.
+            var countdown = 10;
+            var timeout = 10000;
+            // The code for the timer to actually count down.
+            setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = "Blast Off!!";
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+             // The code for the timer to actually count down.
+             setTimeout(()=> { 
+                document.getElementById("CountdownDisplay").innerHTML = countdown;
+                countdown = countdown -1;
+             }, timeout )
+             timeout = timeout -1000;
+
+
+        }
+    
+   
+
+ 
+</script>
+
+</head>
+<body>
+   <!-- The UAT Logo -->
+   <img src="UAT_Shield_Logo.png" alt="">
+   <!-- What we are  about to do -->
+    <h1>Count Down to Blastoff</h1>
+    <!-- Where we are counting down at -->
+    <p>This will count down to Launch</p>
+    <!-- the button to start the count -->
+    <h2>Countdown</h2><button type="button" onclick="StarttheLaunch()">Start The Launch</button>
+   <!-- This is a button to start the Launch -->
+    <p id="CountdownDisplay"> 10</p>
+    <!-- This for the UAT Space Departmnt, so they need to represented-->
+   <td><tr><img src="UATspaceLogo.jpg" alt=""; ></tr></td> 
+</body>
+</html>
